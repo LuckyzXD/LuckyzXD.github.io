@@ -1,0 +1,82 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Monsterrat',sans-serif;
+     background: rgb(228,228,228);
+     background-image: url('pattern.jpg');
+}
+
+.container{
+    height: 100vh;
+}
+
+.heading{
+    text-align: center;
+    margin: 0px 0px 15px 0px;
+    background:black;
+    color: white;
+}
+
+.heading h1{
+    font-size: 35px;
+}
+
+.heading p{
+    margin-top: 8px;
+    font-size: 18px;
+    margin-bottom: 8px;
+    color:white;
+}
+
+.currencyInput{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+    width:90%;
+    margin: 0 auto;
+}
+
+#euro, #dollar, #kronor, #pound{
+    margin: 0 auto;
+    margin-top: 40px;
+    border: none;
+    padding: 20px 20px;
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    width: 50%;
+    box-shadow: 0px 1px 5px rgb(97,97,97);
+}
+
+#euro{
+    background: #4a69ff;
+}
+
+#dollar{
+    background: #35d073;
+}
+
+#kronor{
+    background: #ff712f;
+}
+
+#pound{
+    background: #f85c50;
+}
+
+  ::placeholder {
+    color: black;
+    opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+    color: black;
+  }
+  
+  ::-ms-input-placeholder {
+    color: black;
+  }
